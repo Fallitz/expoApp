@@ -44,7 +44,7 @@ class Profile extends Component {
               <View style = {{marginTop: 20, flexDirection: 'column',justifyContent: 'center',alignItems: 'center', 
                 alignContent:'center', height: 200, backgroundColor: '#e8fafa', }}>
 
-               
+                      
                     
                   
                      <Text style= {{fontSize: 28,marginTop: 2, marginLeft: 30, fontWeight: 'bold'}}>Excelente aluno!</Text>
