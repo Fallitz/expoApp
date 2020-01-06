@@ -51,7 +51,7 @@ class Profile extends Component {
                       spacing={8}
                       count={5}
                       starSize={40}
-                      backingColor='cornsilk' {/* must NOT be 'transparent' */}
+                      backingColor='cornsilk'
                       fullStar= {require('./src/images/starFilled.png')}
                       emptyStar= {require('./src/images/starEmpty.png')}/>
                   </View>
