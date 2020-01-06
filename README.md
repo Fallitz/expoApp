@@ -16,6 +16,4 @@ Run "expo start" to initialize
 
 # Fix bug
 
-teste
-
 https://stackoverflow.com/questions/58760712/how-to-fix-metro-bundler-process-exited-with-code-1
