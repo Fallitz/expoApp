@@ -3,7 +3,8 @@ import { Button, View, Text, SafeAreaView, StyleSheet, ScrollView, StatusBar, To
 import { createAppContainer, } from 'react-navigation';
 import { createStackNavigator} from 'react-navigation-stack';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
-  
+import Stars from 'react-native-stars';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
 //Tela Perfil
@@ -43,10 +44,26 @@ class ProfileDriver extends Component {
               
               <View style = {{marginTop: 20, flexDirection: 'column',justifyContent: 'center',alignItems: 'center', 
                 alignContent:'center', height: 200, backgroundColor: '#e8fafa', }}>
-               
-                     <Image style= {{}} source={require('./src/images/5estrelas.png')}/>
+              
                      <Text style= {{fontSize: 28,marginTop: 2, marginLeft: 30, fontWeight: 'bold'}}>Excelente professor!</Text>
                    
+                     <View style={{alignItems:'center', marginTop: 30, marginBottom: 30}}>
+                        <Stars
+                          half={true}
+                          default={2.5}
+                          update={(val)=>{this.setState({stars: val})}}
+                          spacing={4}
+                          starSize={40}
+                          count={5}
+                          fullStar={require('./src/images/starFilled.png')}
+                          emptyStar={require('./src/images/starEmpty.png')}
+                          halfStar={require('./src/images/starHalf.png')}/>
+                     </View>
+
+                     <Button
+                        title = "Avaliar"
+                        color = "#33B2FF"
+                      />
 
               </View>
 

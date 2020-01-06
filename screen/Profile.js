@@ -51,7 +51,7 @@ class Profile extends Component {
                       spacing={8}
                       count={5}
                       starSize={40}
-                      backingColor='cornsilk'
+                      backingColor='#e8fafa'
                       fullStar= {require('./src/images/starFilled.png')}
                       emptyStar= {require('./src/images/starEmpty.png')}/>
                   </View>
@@ -59,6 +59,7 @@ class Profile extends Component {
                   
                      <Text style= {{fontSize: 28,marginTop: 2, marginLeft: 30, fontWeight: 'bold'}}>Excelente aluno!</Text>
                    
+
 
               </View>
 
