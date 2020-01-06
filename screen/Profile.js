@@ -45,16 +45,7 @@ class Profile extends Component {
                 alignContent:'center', height: 200, backgroundColor: '#e8fafa', }}>
 
 
-                  <View style={{alignItems:'center'}}>
-                    <Stars
-                      display={3.67}
-                      spacing={8}
-                      count={5}
-                      starSize={40}
-                      backingColor='cornsilk'
-                      fullStar= {require('./src/images/starFilled.png')}
-                      emptyStar= {require('./src/images/starEmpty.png')}/>
-                  </View>
+                  
                     
                   
                      <Text style= {{fontSize: 28,marginTop: 2, marginLeft: 30, fontWeight: 'bold'}}>Excelente aluno!</Text>
